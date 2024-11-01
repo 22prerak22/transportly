@@ -10,10 +10,6 @@ An automated air freight scheduling service for managing flights and orders. Thi
 - [Getting Started](#getting-started)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Scripts](#scripts)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Demo
 
@@ -70,22 +66,3 @@ You can view a live demo of this application at: [Demo URL here](#)
    ```
 
 2. Open http://localhost:3000 to view it in the browser.
-
-### Project Structure
-
-src/
-├── components/
-│ ├── FlightSchedule.jsx # Component to display scheduled flights
-│ ├── FlightDetails.jsx # Component to show flight details and assigned orders
-│ ├── OrdersList.jsx # Component to view all orders
-│ ├── UI/
-│ │ └── Card.jsx # Reusable Card component with Framer Motion animations
-├── data/
-│ ├── schedule.json # JSON file containing flight schedules
-│ └── orders.json # JSON file containing orders
-├── store/
-│ ├── flightsSlice.js # Redux slice for flight and order data management
-│ └── index.js # Redux store configuration
-├── App.jsx # Main application component with routing
-├── styles.css # Tailwind CSS styling configuration
-└── main.jsx # Entry point for the React application
